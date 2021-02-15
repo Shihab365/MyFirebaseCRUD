@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".Text_INSERT_Activity">
+
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:layout_weight="1.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textAllCaps="false"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="TEXT INSERT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/tInsert_et_sName_id"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:hint="Student name"
+                android:backgroundTint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/tInsert_et_sID_id"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:hint="Student id"
+                android:backgroundTint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/tInsert_et_sDept_id"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:hint="Department"
+                android:backgroundTint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/tInsert_et_sCGPA_id"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:hint="CGPA"
+                android:backgroundTint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/tInsert_btn_submit_id"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="#8353DB"
+                android:text="SUBMIT"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

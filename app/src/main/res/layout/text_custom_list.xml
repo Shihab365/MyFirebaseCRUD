@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:text="ID"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:text="Dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:text="CGPA"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

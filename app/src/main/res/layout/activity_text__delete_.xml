@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".Text_Delete_Activity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1.7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textAllCaps="false"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="TEXT DELETE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="vertical"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="Enter student ID for delete:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:gravity="center"
+                android:hint="Student ID"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:text="DELETE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
