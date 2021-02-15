@@ -42,6 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <EditText
+                    android:id="@+id/text_rs_et_sid_id"
                     android:layout_margin="8dp"
                     android:gravity="center"
                     android:textColor="@android:color/white"
@@ -59,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
+                    android:id="@+id/text_rs_btn_search_id"
                     android:layout_margin="8dp"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
@@ -109,12 +111,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <TextView
+                            android:id="@+id/text_rS_tv_yoursrc_id"
                             android:layout_marginLeft="5dp"
                             android:textAllCaps="false"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             android:textColor="#FFEB3B"
-                            android:text="101"
+                            android:text=""
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
@@ -151,12 +154,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <TextView
+                                android:id="@+id/text_rS_tv_name_id"
                                 android:layout_marginLeft="8dp"
                                 android:textAllCaps="false"
                                 android:textSize="25sp"
                                 android:textStyle="bold"
                                 android:textColor="#FFFFFF"
-                                android:text="Shihab"
+                                android:text=""
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                         </LinearLayout>
@@ -188,12 +192,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <TextView
+                                android:id="@+id/text_rS_tv_id_id"
                                 android:layout_marginLeft="8dp"
                                 android:textAllCaps="false"
                                 android:textSize="25sp"
                                 android:textStyle="bold"
                                 android:textColor="#FFFFFF"
-                                android:text="101"
+                                android:text=""
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                         </LinearLayout>
@@ -225,12 +230,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <TextView
+                                android:id="@+id/text_rS_tv_dept_id"
                                 android:layout_marginLeft="8dp"
                                 android:textAllCaps="false"
                                 android:textSize="25sp"
                                 android:textStyle="bold"
                                 android:textColor="#FFFFFF"
-                                android:text="CSE"
+                                android:text=""
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                         </LinearLayout>
@@ -262,12 +268,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <TextView
+                                android:id="@+id/text_rS_tv_cgpa_id"
                                 android:layout_marginLeft="8dp"
                                 android:textAllCaps="false"
                                 android:textSize="25sp"
                                 android:textStyle="bold"
                                 android:textColor="#FFFFFF"
-                                android:text="3.74"
+                                android:text=""
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                         </LinearLayout>
@@ -279,7 +286,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
-                    android:id="@+id/tInsert_btn_submit_id"
+                    android:id="@+id/text_btn_back_id"
                     android:textColor="#ffffff"
                     android:textSize="25sp"
                     android:textStyle="bold"
