@@ -36,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <EditText
+                android:id="@+id/txt_upd_et_sid_ID"
                 android:layout_margin="10dp"
                 android:textAllCaps="false"
                 android:textSize="20sp"
@@ -86,6 +87,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <EditText
+                            android:id="@+id/txt_upd_et_name_ID"
                             android:layout_margin="10dp"
                             android:textAllCaps="false"
                             android:textSize="20sp"
@@ -94,7 +96,7 @@
                             android:backgroundTint="@android:color/white"
                             android:textColorHint="@android:color/white"
                             android:gravity="center"
-                            android:hint="New student name"
+                            android:hint="New name"
                             android:layout_width="match_parent"
                             android:layout_height="70dp"/>
                     </LinearLayout>
@@ -129,6 +131,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <EditText
+                                android:id="@+id/txt_upd_et_cgpa_ID"
                                 android:layout_margin="10dp"
                                 android:textAllCaps="false"
                                 android:textSize="20sp"
@@ -149,7 +152,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
-                    android:id="@+id/tInsert_btn_submit_id"
+                    android:id="@+id/txt_upd_btn_update_ID"
                     android:textColor="#ffffff"
                     android:textSize="25sp"
                     android:textStyle="bold"
