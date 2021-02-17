@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:weightSum="4"
+    android:orientation="vertical"
+    android:weightSum="2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:gravity="center"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="4"
         android:layout_weight="1"
-        android:textColor="#000000"
-        android:textStyle="normal"
-        android:textAllCaps="false"
-        android:text="Name"
         android:layout_width="match_parent"
-        android:layout_height="60dp"/>
-    <TextView
-        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/recy_text_name_id"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/recy_text_SID_id"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="ID"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/recy_text_dept_id"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Dept"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/recy_text_cgpa_id"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="CGPA"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_weight="1"
-        android:textColor="#000000"
-        android:textStyle="normal"
-        android:textAllCaps="false"
-        android:text="ID"
         android:layout_width="match_parent"
-        android:layout_height="60dp"/>
-    <TextView
-        android:gravity="center"
-        android:layout_weight="1"
-        android:textColor="#000000"
-        android:textStyle="normal"
-        android:textAllCaps="false"
-        android:text="Dept"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"/>
-    <TextView
-        android:gravity="center"
-        android:layout_weight="1"
-        android:textColor="#000000"
-        android:textStyle="normal"
-        android:textAllCaps="false"
-        android:text="CGPA"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"/>
+        android:layout_height="match_parent">
+        <View
+            android:background="#4CAF50"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
 
 </LinearLayout>
