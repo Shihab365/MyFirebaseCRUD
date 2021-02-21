@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/ic_firebase"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SingleCreated"></activity>
+        <activity android:name=".ReadAll"></activity>
+        <activity android:name=".SingleCreated" />
         <activity android:name=".MultiFile" />
         <activity android:name=".SingleFile" />
         <activity android:name=".TextCRUDActivity" />

@@ -27,5 +27,12 @@ public class SingleFile extends AppCompatActivity {
                 startActivity(new Intent(SingleFile.this, SingleCreated.class));
             }
         });
+
+        btnReadAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SingleFile.this, ReadAll.class));
+            }
+        });
     }
 }
