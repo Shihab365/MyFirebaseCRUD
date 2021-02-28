@@ -11,6 +11,7 @@
     tools:context=".SingleFileDelete">
 
     <EditText
+        android:id="@+id/sf_et_photoName_id"
         android:layout_margin="5dp"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -21,6 +22,7 @@
         android:layout_height="60dp"/>
 
     <Button
+        android:id="@+id/sf_btn_delete_id"
         android:text="DELETE"
         android:textAllCaps="false"
         android:textColor="#ffffff"
