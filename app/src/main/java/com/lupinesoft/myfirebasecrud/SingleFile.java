@@ -34,5 +34,19 @@ public class SingleFile extends AppCompatActivity {
                 startActivity(new Intent(SingleFile.this, ReadAll.class));
             }
         });
+
+        btnUpdate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SingleFile.this, SingleFileUpdate.class));
+            }
+        });
+
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SingleFile.this, SingleFileDelete.class));
+            }
+        });
     }
 }

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    tools:context=".SingleFileUpdate">
+
+    <EditText
+        android:id="@+id/sf_updt_et_name_id"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:id="@+id/sf_updt_et_descr_id"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:hint="Enter Update Description"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/sf_updt_btn_pick_photo_id"
+        android:layout_margin="5dp"
+        android:text="SELECT NEW PHOTO"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/sf_updt_tv_preview_id"
+        android:background="#00BCD4"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:text="[ No File Selected ]"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/sf_updt_btn_submit_id"
+        android:layout_margin="5dp"
+        android:text="SUBMIT UPDATE"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</LinearLayout>
